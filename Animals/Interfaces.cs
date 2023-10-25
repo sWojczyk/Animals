@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    public interface ISound
+    interface ISound
     {
-        string GetVoice();
+        String GetVoice();
+    }
+    interface ISwimmable
+    {
+        String Swim();
     }
 }
